@@ -40,7 +40,7 @@ export default {
 
 <style lang='less' scoped>
 .head-title{
-  height:64px;
+  height:32px;
   width: 100%; 
   display: flex;
   flex-direction: row;
@@ -51,7 +51,7 @@ export default {
 }
 .back{
   height: 100%;
-  width: 50px;
+  width: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,15 +62,15 @@ export default {
 .arrow-left{
   color: #000;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 16px;
 }
 p{
   display: inline-block;
-  font-size: 32px;
+  font-size: 16px;
   font-family:SFUIDisplay-Medium;
   font-weight:500;
   color:rgba(0,0,0,1);
-  line-height:22px;
+  line-height:11px;
 
 }
 </style>

@@ -2,7 +2,7 @@
   <div>
     <Header />
     <van-tabs v-model="active" class="comm-tab" sticky>
-      <van-tab v-for="item in types" :title="item.title"></van-tab>
+      <van-tab v-for="item in types" :title="item.title" :key="item.name"></van-tab>
     </van-tabs>
     <van-list
       v-model="loading"
@@ -46,18 +46,18 @@ export default {
     display: flex; justify-content: center;
     &::after{content:'当前状态暂无订单'; display: inline-block; 
       position: absolute; bottom: 33%; font-weight:bold;
-      font-size:32px;
+      font-size:16px;
       font-family:SFUIDisplay-Medium,SFUIDisplay;
       font-weight:500;
       color:rgba(0,0,0,1);
     }
     .van-button{
-      height:80px; padding:18px 44px; 
+      height:40px; padding:9px 22px; line-height: 20px;
       background:rgba(219,182,120,1);
-      border-radius:8px; position: absolute;
+      border-radius:4px; position: absolute;
       bottom: 25%;
       span{
-        font-size:28px;
+        font-size:14px;
         font-family:SFUIDisplay-Medium,SFUIDisplay;
         font-weight:500;
         color:rgba(255,255,255,1);

@@ -105,63 +105,63 @@ export default {
 </script>
 <style lang="less" scoped>
   .detail-box{
-    header{width:750px; height: 750px; background-repeat: no-repeat; background-size: 100%; background-position: center; background-color:#fff;}
+    header{width:375px; height: 375px; background-repeat: no-repeat; background-size: 100%; background-position: center; background-color:#fff;}
     .detail-title{
-      background:#fff; height: 168px; line-height: 100px; vertical-align: middle; text-align: left;padding:32px 24px; border-top: solid 1px #fafafa;
+      background:#fff; height: 84px; line-height: 50px; vertical-align: middle; text-align: left;padding:16px 12px; border-top: solid 1px #fafafa;
       .title-left{
-        font-size:32px; overflow: hidden;  text-overflow: ellipsis; white-space: nowrap;
+        font-size:16px; overflow: hidden;  text-overflow: ellipsis; white-space: nowrap;
         font-family:PingFangSC-Medium,PingFang SC;
         font-weight:700;
         color:rgba(0,0,0,1);
       }
-      .title-right{font-size:28px;
+      .title-right{font-size:14px;
         font-family:PingFangSC-Regular,PingFang SC;
         font-weight:400;
         color:rgba(197,197,197,1);
         letter-spacing:1px;}
     }
     .detail-brief{
-      display: flex; align-items: center; margin:32px 0;
-      height:120px;background:rgba(255,255,255,1);
+      display: flex; align-items: center; margin:16px 0;
+      height:60px;background:rgba(255,255,255,1);
       .brief-time{
         height: 90%;
         h4{
-          font-size:24px; margin:5px 0 20px 0;
+          font-size:12px; margin:2.5px 0 10px 0;
           font-family:PingFangSC-Regular,PingFang SC;
           font-weight:400;
           color:rgba(210,168,120,1);
         }
         .van-count-down{
-          height:36px; margin-top:20px;
+          height:18px; margin-top:10px;
           span{
-            width:36px; height:36px; padding: 8px; 
-            font-size:20px;
+            width:18px; height:18px; padding: 4px; 
+            font-size:10px;
             font-family:PingFangSC-Medium,PingFang SC;
             color:rgba(255,255,255,1);
             background:linear-gradient(90deg,rgba(242,197,145,1) 0%,rgba(216,160,95,1) 100%);
-            border-radius:4px;
+            border-radius:2px;
           }
         }
       }
       .brief-price{
-        font-size:36px;margin:0 14px;
+        font-size:18px;margin:0 7px;
         font-family:PingFangSC-Regular,PingFang SC;
         font-weight:400;
         color:rgba(255,89,95,1);
       }
       .brief-origin-price{
-        font-size:24px; text-decoration: line-through;
+        font-size:12px; text-decoration: line-through;
         font-family:Helvetica;
         color:rgba(179,179,179,1);
       }
     }
     footer{
       width:100%;
-      button{width:90%; margin:10px auto;
-        height:84px; color:#fff; line-height: 84px;
+      button{width:90%; margin:5px auto;
+        height:42px; color:#fff; line-height: 42px;
         background:rgba(219,182,120,1);
-        border-radius:8px;border-radius:42px;
-        font-size:32px;
+        border-radius:4px;border-radius:21px;
+        font-size:16px;
         font-family:PingFangSC-Medium,PingFang SC;
         font-weight:500;
         color:rgba(255,255,255,1);

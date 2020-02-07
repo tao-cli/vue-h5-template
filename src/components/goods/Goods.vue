@@ -110,7 +110,7 @@ export default {
 
 <style lang="less">
 .goods {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 
   &-swipe {
     img {
@@ -120,7 +120,7 @@ export default {
   }
 
   &-title {
-    font-size: 16px;
+    font-size: 8px;
   }
 
   &-price {
@@ -129,12 +129,12 @@ export default {
 
   &-express {
     color: #999;
-    font-size: 12px;
-    padding: 5px 15px;
+    font-size: 6px;
+    padding: 2.5px 7.5px;
   }
 
   &-cell-group {
-    margin: 15px 0;
+    margin: 7.5px 0;
 
     .van-cell__value {
       color: #999;
@@ -142,7 +142,7 @@ export default {
   }
 
   &-tag {
-    margin-left: 5px;
+    margin-left: 2.5px;
   }
 }
 </style>

@@ -10,12 +10,12 @@
   .time-pane{
     .van-count-down{
       span{
-        width:36px; height:36px; padding: 8px; 
-        font-size:20px;
+        width:18px; height:18px; padding: 4px; 
+        font-size:10px;
         font-family:PingFangSC-Medium,PingFang SC;
         color:rgba(255,255,255,1);
         background:linear-gradient(90deg,rgba(242,197,145,1) 0%,rgba(216,160,95,1) 100%);
-        border-radius:4px;
+        border-radius:2px;
       }
     }
   }
@@ -24,9 +24,9 @@
   <div class="time-pane">
     <van-count-down  :time="diffTime" format="HH:mm:ss">
       <template v-slot="timeData">
-        <span class="item">{{ renderTime(timeData.days)}}天</span>&nbsp;
-        <span class="item">{{ renderTime(timeData.hours) }}</span>：
-        <span class="item">{{ renderTime(timeData.minutes) }}</span>：
+        <span class="item">{{ renderTime(timeData.days)}}天</span> &nbsp;
+        <span class="item">{{ renderTime(timeData.hours) }}</span>:
+        <span class="item">{{ renderTime(timeData.minutes) }}</span>:
         <span class="item">{{ renderTime(timeData.seconds) }}</span>
       </template>
     </van-count-down>

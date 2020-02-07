@@ -16,20 +16,20 @@ export default {
 <style lang="less" scoped>
   .message-box{
     h3{
-      font-size:24px;
+      font-size:12px;
       font-family:PingFangSC-Light,PingFang SC;
       font-weight:300;
       color:rgba(255,255,255,1);
     }
     h2{
-      font-size:55px; display: flex; align-items: center;
+      font-size:27.5px; display: flex; align-items: center;
       font-family:PingFangSC-Medium,PingFang SC;
       font-weight:500;
       color:rgba(255,255,255,1);
-      &::before,&::after{content:'';display:inline-block; width:50px; height:5px; border:solid 1px #fff; border-left:none; border-right:none;}
-      &::before{margin-right:10px;}
-      &::after{margin-left:10px;}
+      &::before,&::after{content:'';display:inline-block; width:25px; height:2.5px; border:solid 1px #fff; border-left:none; border-right:none;}
+      &::before{margin-right:5px;}
+      &::after{margin-left:5px;}
     }
-    margin-top: 20px;
+    margin-top: 10px;
   }
 </style>

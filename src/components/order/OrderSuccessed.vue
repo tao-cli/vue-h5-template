@@ -99,71 +99,71 @@ export default {
 <style lang="less" scoped>
   header{
     background:linear-gradient(360deg,rgba(227,187,123,1) 0%,rgba(245,216,165,1) 100%);
-    padding:32px; min-height: 248px; display: flex; justify-content: center;
+    padding:16px; min-height: 124px; display: flex; justify-content: center;
     position: relative;
     .group-goods{
       position: absolute; bottom:-60%;
       max-width: 95%; margin:0 auto;
     }
   }
-  .cont-height{min-height: 322px;}
+  .cont-height{min-height: 161px;}
   .main-box{
     padding-top:30%; background:#FAFAFA;
     min-height: 30vh;
     h2{
-      font-size:28px;height:44px; width:204px;
+      font-size:14px;height:22px; width:102px;
       font-family:PingFangSC-Regular,PingFang SC;
-      font-weight:400; margin:10px auto; margin-bottom:15px;
+      font-weight:400; margin:5px auto; margin-bottom:7.5px;
       color:#666;
       background:url(../../assets/images/pintuan.png) no-repeat center; 
       background-size: 100%;
     }
     p{
-      font-size:28px;margin-bottom: 20px;
+      font-size:14px;margin-bottom: 10px;
       font-family:PingFangSC-Regular,PingFang SC;
       font-weight:400;
       color:#484848;
     }
     p>span{
-      font-size:28px;margin:0 5px;
+      font-size:14px;margin:0 2.5px;
       font-family:PingFangSC-Regular,PingFang SC;
       font-weight:400;
       color:rgba(246,67,67,1);
     }
     .btn-box{
-      padding:65px 0 ; 
+      padding:32.5px 0 ; 
       .van-button{
-        height:74px; border-radius: 37px; width:240px;
-        border:2px solid rgba(219,182,120,1);
+        height:37px; border-radius: 18.5px; width:120px; line-height: 18.5px;
+        border:1px solid rgba(219,182,120,1);
         span{
-          font-size:28px; color:#DBB678;
+          font-size:14px; color:#DBB678;
           font-family:PingFangSC-Regular,PingFang SC;
           font-weight:400;
         }
       }
       .van-button--primary {
-        background:#DBB678; margin-right:44px;
+        background:#DBB678; margin-right:22px;
         span{color:#fff;}
       }
     }
   }
   footer{
-    margin-top: 40px; padding-bottom:20px;
+    margin-top: 20px; padding-bottom:10px;
     background:#f5f5f5;
-    section{position: relative; padding:20px; width:250px; height: 245px; margin:0 auto; }
+    section{position: relative; padding:10px; width:125px; height: 122.5px; margin:0 auto; }
     canvas{
-      width: 209px !important; height: 209px !important;     
+      width: 105px !important; height: 105px !important;     
     }
     i{
-      display: inline-block; width:24px; height: 24px; border-radius: 12px; position: absolute;
-      &:nth-of-type(1){border-left:solid 3px #DBB678; border-top:3px solid #DBB678; left:0; top:0; border-top-right-radius: 0;border-bottom-left-radius: 0;}
-      &:nth-of-type(2){border-right:solid 3px #DBB678; border-top:3px solid #DBB678; right:0; top:0; border-top-left-radius: 0;border-bottom-right-radius: 0;}      
-      &:nth-of-type(3){border-left:solid 3px #DBB678; border-bottom:3px solid #DBB678; left:0; bottom:0; border-top-left-radius: 0;border-bottom-right-radius: 0;}
-      &:nth-of-type(4){border-right:solid 3px #DBB678; border-bottom:3px solid #DBB678; right:0; bottom:0; border-top-right-radius: 0;border-bottom-left-radius: 0;}
+      display: inline-block; width:12px; height: 12px; border-radius: 6px; position: absolute;
+      &:nth-of-type(1){border-left:solid 1.5px #DBB678; border-top:1.5px solid #DBB678; left:0; top:0; border-top-right-radius: 0;border-bottom-left-radius: 0;}
+      &:nth-of-type(2){border-right:solid 1.5px #DBB678; border-top:1.5px solid #DBB678; right:0; top:0; border-top-left-radius: 0;border-bottom-right-radius: 0;}      
+      &:nth-of-type(3){border-left:solid 1.5px #DBB678; border-bottom:1.5px solid #DBB678; left:0; bottom:0; border-top-left-radius: 0;border-bottom-right-radius: 0;}
+      &:nth-of-type(4){border-right:solid 1.5px #DBB678; border-bottom:1.5px solid #DBB678; right:0; bottom:0; border-top-right-radius: 0;border-bottom-left-radius: 0;}
     }
     .qrcode-text{
-      text-align: center; margin-top:30px;
-      font-size:28px;
+      text-align: center; margin-top:15px;
+      font-size:14px;
       font-family:PingFangSC-Light,PingFang SC;
       font-weight:300;
       color:rgba(146,148,151,1);

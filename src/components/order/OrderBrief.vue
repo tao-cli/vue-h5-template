@@ -81,56 +81,60 @@ export default {
 </script>
 <style lang="less" scoped>
   .address-box{
-    border-bottom: 10px solid transparent; height:246px; padding:38px 32px;
+    border-bottom: 10px solid transparent; height:123px; padding:19px 16px;
     background: linear-gradient(white, white) padding-box,
-    repeating-linear-gradient(-45deg, red 0, red 2.5%, transparent 0, transparent 3.5%, #58a 0, #58a 5.5%, transparent 0, transparent 6.5%) 0/20px 20px;
+    repeating-linear-gradient(-45deg, red 0, red 2.5%, 
+        transparent 0, transparent 3.5%, #58a 0, #58a 5.5%, 
+        transparent 0, transparent 6.5%) 0/10px 10px;
     header{
       display: flex; align-items: center; 
-      font-size:28px;
+      font-size:14px;
       font-family:SFUIDisplay-Light,SFUIDisplay;
       color:rgba(0,0,0,1);
-      i{display: inline-block; width: 36px; height:36px; background:url(../../assets/images/gift.png) no-repeat; background-size: 100%; margin-right: 16px;}
+      i{display: inline-block; width: 18px; height:18px; 
+        background:url(../../assets/images/gift.png) no-repeat; 
+        background-size: 100%; margin-right: 8px;}
     }
     .address-detail{
-      text-align: left; padding-left:46px;
+      text-align: left; padding-left:23px;
       h4{
-        font-size:24px;margin:10px 0;
+        font-size:12px;margin:10px 0;
         font-family:PingFangSC-Regular,PingFang SC;
         color:rgba(64,64,64,1);
       }
       p{
-        font-size:24px;margin:0;
+        font-size:12px;margin:0;
         font-family:PingFangSC-Light,PingFang SC;
         font-weight:300;
         color:rgba(143,143,143,1);
-        line-height:40px;
+        line-height:20px;
       }
     }
   }
   .order-list{
-    margin-top:20px; padding:0 32px;
+    margin-top:10px; padding:0 16px;
     background:#fff;
     h4{
-      font-size:28px; text-align: left;
+      font-size:14px; text-align: left;
       font-family:SFUIDisplay-Medium,SFUIDisplay;
-      font-weight:600; height: 100px; line-height: 100px;
+      font-weight:600; height: 50px; line-height: 50px;
       border-bottom: solid 1px #E5E5E5;
       color:rgba(0,0,0,1); margin:0;
     }
     .goods-box{max-height: 65vh; overflow: hidden; overflow-y: auto;}
     article{
-      height:244px;padding:36px 0; display: flex; border-bottom:solid 1px #E5E5E5;
-      aside{width:172px; height: 172px; margin-right:24px; img{width:100%; height: 100%;}}
+      height:122px;padding:18px 0; display: flex; border-bottom:solid 1px #E5E5E5;
+      aside{width:86; height: 86px; margin-right:12px; img{width:100%; height: 100%;}}
       main{
         display: flex; flex-direction: column; justify-content: space-between; text-align: left;
         .self-title{
-          font-size:28px; margin-left:12px;
+          font-size:14px; margin-left:6px;
           font-family:PingFangSC-Light,PingFang SC;
           font-weight:300;
           color:rgba(0,0,0,1);
         }
         footer{
-          font-size:28px;
+          font-size:14px;
           font-family:PingFangSC-Light,PingFang SC;
           font-weight:300;
           color:rgba(0,0,0,1);
@@ -139,27 +143,27 @@ export default {
     }
   }
   .order-footer{
-    position: absolute; bottom: 0%; width:100%; padding:16px 32px;
+    position: absolute; bottom: 0%; width:100%; padding:8px 16px;
     display: flex; justify-content: space-between;
-    align-items: center;height: 168px; background: #fff;
+    align-items: center;height: 84px; background: #fff;
     aside{
       text-align: left;
-      font-size:24px;
+      font-size:12px;
       font-family:SFUIDisplay-Light,SFUIDisplay;
       font-weight:300;
       color:rgba(0,0,0,1);
       span{
-        font-size:32px;
+        font-size:16px;
         font-family:Helvetica;
         color:rgba(255,76,76,1);
-        line-height:48px;
+        line-height:24px;
       }
       .van-button{
-        height:80px; padding: 18px 44px;
+        height:40px; padding: 9px 22px;
         background:rgba(219,182,120,1);
-        border-radius:8px;
+        border-radius:4px; line-height: 20px;
         span{
-          font-size:28px;
+          font-size:14px;
           font-family:SFUIDisplay-Medium,SFUIDisplay;
           font-weight:500;
           color:rgba(255,255,255,1);}

@@ -72,32 +72,32 @@ export default {
 </script>
 <style lang="less" scoped>  
   .goods-desc{
-    display: flex; align-items: center; margin-top:18px;
+    display: flex; align-items: center; margin-top:9px;
     >span{
-      font-size:24px;
+      font-size:12px;
       font-family:PingFangSC-Regular,PingFang SC;
       color:rgba(210,168,120,1);
-      line-height:33px;
+      line-height:16px;
     }
   }
   .goods-item{
-    margin-bottom:32px;
+    margin-bottom:16px;
     .time-box{
-      font-size:24px;
+      font-size:12px;
       font-family:PingFangSC-Regular,PingFang SC;
       font-weight:400;
       color:rgba(210,168,120,1);
     }
     .van-card{
-      width: 100%; padding: 24px;      
+      width: 100%; padding: 12px;      
       background:rgba(255,255,255,1);
-      border-radius:12px;
-      .van-card__thumb{width: 248px; height: 248px;border-radius: 4px;}
+      border-radius:6px;
+      .van-card__thumb{width: 124px; height: 124px;border-radius: 2px;}
       .van-card__content{
         .van-tag{position: absolute;left:0;}
-        span.self-title{text-indent: 4.5em;
-          text-align: left; line-height: 45px;
-          font-size:24px;
+        span.self-title{text-indent: 4.2em;
+          text-align: left; line-height: 22px;
+          font-size:12px;
           font-family:PingFangSC-Medium,PingFang SC;
           font-weight:700;
           color:rgba(0,0,0,1);
@@ -107,33 +107,33 @@ export default {
     }
     .van-card__content{ flex-direction: column; justify-content: space-around;}
     .van-card__bottom{
-      margin-top:40px; display: flex; align-items: center;
+      margin-top:20px; display: flex; align-items: center;
       justify-content: space-between; text-align: left;
       [slot="price"]{
-        font-size:28px;
+        font-size:14px;
         font-family:PingFangSC-Medium,PingFang SC;
         font-weight:500;
         color:rgba(255,89,95,1);
-        line-height:40px;
+        line-height:20px;
       }
       [slot="origin-price"]{text-decoration: line-through;
-        font-size:24px; margin-top:12px;
+        font-size:12px; margin-top:6px;
         font-family:PingFangSC-Light,PingFang SC;
         color:rgba(179,179,179,1);
-        line-height:40px;
+        line-height:20px;
       }
       button{
-        width:144px;
-        height:56px;
+        width:72px;
+        height:28px; line-height: 28px;
         background:linear-gradient(90deg,rgba(242,197,145,1) 0%,rgba(216,160,95,1) 100%);
-        box-shadow:0px 6px 12px 0px rgba(182,121,51,0.27);
-        border-radius:34px;
+        box-shadow:0px 3px 6px 0px rgba(182,121,51,0.27);
+        border-radius:17px;
         span{color: #fff;
-          font-size:24px;
+          font-size:12px;
           font-family:PingFangSC-Medium,PingFang SC;
           font-weight:500;
           color:rgba(255,255,255,1);
-          line-height:36px; 
+          line-height:18px; 
         }
       }
       button.disabled{background:#D6D6D6;}

@@ -45,14 +45,14 @@ export default {
   .member-box{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; min-height: 140px;
+    flex-wrap: wrap; min-height: 70px;
     max-width: 90%;
     margin: 0 auto;
     li{
-      width:84px; height: 84px;  margin:28px 14px; 
+      width:42px; height: 42px;  margin:14px 7px; 
       img{width:100%; height: 100%;border-radius: 50%;}
-      i{display: inline-block; width:100%; height: 100%;  font-size:48px;
-        font-family:PingFangSC-Regular,PingFang SC; line-height: 84px;
+      i{display: inline-block; width:100%; height: 100%;  font-size:24px;
+        font-family:PingFangSC-Regular,PingFang SC; line-height: 42px;
         font-weight:400; font-style: normal;
         color:rgba(186,186,186,1);text-align: center; border-radius: 50%;  background:rgba(237,237,236,1);
         border:1px dashed rgba(200,200,200,1);
@@ -63,10 +63,10 @@ export default {
       position: relative;
       &::after{
         content:'团长'; display: inline-block;  position: absolute;
-        height:28px; padding: 2px 10px; bottom:-15%; left:10px;
+        height:14px; padding: 1px 5px; bottom:-15%; left:5px;
         background:linear-gradient(360deg,rgba(227,187,123,1) 0%,rgba(245,216,165,1) 100%);
-        border-radius:14px;
-        font-size:16px;
+        border-radius:7px;
+        font-size:8px;
         font-family:PingFangSC-Regular,PingFang SC;
         font-weight:400;
         color:rgba(255,255,255,1);
@@ -74,8 +74,8 @@ export default {
     }
     .toggle-btn{
       span{
-        width:84px; height:84px; border-radius: 50%; line-height: 84px;
-        font-size:24px; display: inline-block;
+        width:42px; height:42px; border-radius: 50%; line-height: 42px;
+        font-size:12px; display: inline-block;
         font-family:PingFangSC-Regular,PingFang SC;
         font-weight:400;
         color:rgba(255,255,255,1);

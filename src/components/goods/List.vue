@@ -1,6 +1,6 @@
 <template>
   <main class="goods-list">
-    <section class="btn-box">
+    <section class="btn-box" @click="showGroup">
       <van-button plain  ><i></i>我的拼团</van-button>
     </section>
     <section class="content-box">
@@ -47,6 +47,9 @@ export default {
       if(data){
         console.log(data);
       }
+    },
+    showGroup(){
+      this.$router.push({ path: `/group/my`})    
     }
   }
 }
@@ -56,32 +59,32 @@ export default {
 </style>
 <style lang="less" scoped>
   .goods-list{
-    padding:32px 24px;
+    padding:16px 12px;
   }
   .btn-box{
     width:100%;
-    height:90px; 
+    height:45px; 
     background:rgba(255,255,255,1);
-    border-radius:12px;
+    border-radius:6px;
     button{
-      width:100%; height: 90px;
+      width:100%; height: 45px;
       background:rgba(255,255,255,1);
-      border-radius:12px;
+      border-radius:6px;
       span{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size:32px;
+        font-size:16px;
         font-family:PingFangSC-Medium,PingFang SC;
         font-weight:700;
         color:rgba(50,50,50,1);
       }
       i{
-        display: inline-block; width:40px; height: 40px; margin-right: 10px;
+        display: inline-block; width:20px; height: 20px; margin-right: 5px;
         background: url(../../assets/images/pinicon.png) no-repeat;
         background-size: 100%;
       }
     }
   }
-  .content-box{margin-top: 32px;}  
+  .content-box{margin-top: 16px;}  
 </style>
